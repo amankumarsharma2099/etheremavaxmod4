@@ -50,18 +50,22 @@ contract DegenToken is ERC20, Ownable, ERC20Burnable {
             if(choice ==1){
                 approve(msg.sender, 100);
                 transferFrom(msg.sender, owner(), 100);
+                console.log("Congrats you have redeemed 100 tokens ");
             }
             else if(choice ==2){
                 approve(msg.sender, 200);
                 transferFrom(msg.sender, owner(), 200);
+                 console.log("Congrats you have redeemed 200 tokens ");
             }
             else if(choice ==3){
                 approve(msg.sender, 300);
                 transferFrom(msg.sender, owner(), 300);
+                 console.log("Congrats you have redeemed 300 tokens ");
             }
             else if(choice ==4){
                 approve(msg.sender, 400);
                 transferFrom(msg.sender, owner(), 400);
+                 console.log("Congrats you have redeemed 400 tokens ");
             }
         }
 
